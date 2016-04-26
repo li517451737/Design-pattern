@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimerDemo", "CSharpeDemo\TimerDemo.csproj", "{3C119147-4668-4489-ABDB-82DDE02FE82A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DesignPattern", "DesignPattern", "{7B64DC3B-C790-4EF8-A54D-B2354893A6DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LI.Designpattern", "LI.Designpattern\LI.Designpattern.csproj", "{F712A96C-5676-4BA4-AC19-A8B76DCEC03E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C119147-4668-4489-ABDB-82DDE02FE82A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C119147-4668-4489-ABDB-82DDE02FE82A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C119147-4668-4489-ABDB-82DDE02FE82A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C119147-4668-4489-ABDB-82DDE02FE82A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F712A96C-5676-4BA4-AC19-A8B76DCEC03E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F712A96C-5676-4BA4-AC19-A8B76DCEC03E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F712A96C-5676-4BA4-AC19-A8B76DCEC03E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F712A96C-5676-4BA4-AC19-A8B76DCEC03E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F712A96C-5676-4BA4-AC19-A8B76DCEC03E} = {7B64DC3B-C790-4EF8-A54D-B2354893A6DE}
+	EndGlobalSection
+EndGlobal

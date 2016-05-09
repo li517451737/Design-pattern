@@ -31,18 +31,31 @@ namespace Test
             #endregion
 
             #region Json序列化
-            Person p1 = new Person() { Name = "+张三", Age = 25, Sex = "男" };
-            //实体转换为json字符串
-            string json = JsonConvert.SerializeObject(p1);
-            Console.WriteLine(json);
-            //json字符串转换为实体
-            Person p2 = JsonConvert.DeserializeObject<Person>(json);
-            if (p2 != null)
-            {
-                Console.WriteLine(p2.Name);
-            } 
+            //Person p1 = new Person() { Name = "+张三", Age = 25, Sex = "男" };
+            ////实体转换为json字符串
+            //string json = JsonConvert.SerializeObject(p1);
+            //Console.WriteLine(json);
+            ////json字符串转换为实体
+            //Person p2 = JsonConvert.DeserializeObject<Person>(json);
+            //if (p2 != null)
+            //{
+            //    Console.WriteLine(p2.Name);
+            //} 
             #endregion
-
+            //实例化老板、员工
+            Boss boss = new Boss();
+            IBuilder builder1 = new BuilderOne();
+            IBuilder builder2 = new BuilderTwo();
+            
+            //老板叫员工去组装电脑
+            boss.Construct(builder1);
+            boss.Construct(builder2);
+            //员工返回装好的电脑
+            Computer computer1 = builder1.GetComputer();
+            computer1.Show();
+            Computer computer2 = builder2.GetComputer();
+            computer2.Show();
+            
             Console.ReadKey();
         }
     }

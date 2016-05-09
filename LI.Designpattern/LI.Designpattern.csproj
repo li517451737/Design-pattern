@@ -46,6 +46,10 @@
     <Compile Include="工厂方法模式\Creator.cs" />
     <Compile Include="工厂方法模式\ShreddedPorkWithPotatoesFactory.cs" />
     <Compile Include="工厂方法模式\TomatoScrambledEggsFactory.cs" />
+    <Compile Include="建造者模式\Boss.cs" />
+    <Compile Include="建造者模式\BuilderOne.cs" />
+    <Compile Include="建造者模式\Computer.cs" />
+    <Compile Include="建造者模式\IBuilder.cs" />
     <Compile Include="简单工厂模式\Food.cs" />
     <Compile Include="简单工厂模式\FoodSimpleFactory.cs" />
     <Compile Include="简单工厂模式\TomatoScrambledEggs.cs" />

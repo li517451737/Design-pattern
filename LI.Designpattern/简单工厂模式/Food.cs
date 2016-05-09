@@ -5,11 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace LI.Designpattern
-{ 
+{
     /// <summary>
     /// 菜抽象类
     /// </summary>
-    abstract class Food
+    public abstract class Food
     {
         /// <summary>
         /// 输出食物

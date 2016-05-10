@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace Test
@@ -42,21 +43,49 @@ namespace Test
             //    Console.WriteLine(p2.Name);
             //} 
             #endregion
+
+            #region 建造者模式
             //实例化老板、员工
-            Boss boss = new Boss();
-            IBuilder builder1 = new BuilderOne();
-            IBuilder builder2 = new BuilderTwo();
-            
-            //老板叫员工去组装电脑
-            boss.Construct(builder1);
-            boss.Construct(builder2);
-            //员工返回装好的电脑
-            Computer computer1 = builder1.GetComputer();
-            computer1.Show();
-            Computer computer2 = builder2.GetComputer();
-            computer2.Show();
-            
+            //Boss boss = new Boss();
+            //IBuilder builder1 = new BuilderOne();
+            //IBuilder builder2 = new BuilderTwo();
+
+            ////老板叫员工去组装电脑
+            //boss.Construct(builder1);
+            //boss.Construct(builder2);
+            ////员工返回装好的电脑
+            //Computer computer1 = builder1.GetComputer();
+            //computer1.Show();
+            //Computer computer2 = builder2.GetComputer();
+            //computer2.Show(); 
+            #endregion
+
+            CancellationTokenSource tokenSource = new CancellationTokenSource();
+            CancellationToken token = tokenSource.Token;
+
+            Task task = Task.Factory.StartNew(()=> 
+            {
+                for (int i = 0; i < int.MaxValue; i++)
+                {
+                    if (token.IsCancellationRequested)
+                    {
+                        Console.WriteLine("请求已取消！");
+                        token.ThrowIfCancellationRequested();
+                    }
+                    Console.WriteLine(i);
+                }
+            }, token);
+            task.ContinueWith(t=>Show());
+            Console.WriteLine("点击任意键取消！");
             Console.ReadKey();
+            tokenSource.Cancel();
+
+            Console.Read();
+        }
+
+        private static void Show()
+        {
+            Console.WriteLine("取消后的新任务!");
         }
     }
 }

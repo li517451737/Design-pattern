@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AF5F1316-4762-45B0-95A7-B35CF6350FF0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TestMID</RootNamespace>
+    <AssemblyName>TestMID</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="IrisSkin2">
+      <HintPath>..\packages\IrisSkin2.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMid.resx">
+      <DependentUpon>FrmMid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="皮肤\Calmness.ssk" />
+    <None Include="皮肤\CalmnessColor1.ssk" />
+    <None Include="皮肤\CalmnessColor2.ssk" />
+    <None Include="皮肤\DeepCyan.ssk" />
+    <None Include="皮肤\DeepGreen.ssk" />
+    <None Include="皮肤\DeepOrange.ssk" />
+    <None Include="皮肤\DiamondBlue.ssk" />
+    <None Include="皮肤\DiamondGreen.ssk" />
+    <None Include="皮肤\Eighteen.ssk" />
+    <None Include="皮肤\EighteenColor1.ssk" />
+    <None Include="皮肤\EighteenColor2.ssk" />
+    <None Include="皮肤\Emerald.ssk" />
+    <None Include="皮肤\EmeraldColor1.ssk" />
+    <None Include="皮肤\EmeraldColor2.ssk" />
+    <None Include="皮肤\EmeraldColor3.ssk" />
+    <None Include="皮肤\GlassBrown.ssk" />
+    <None Include="皮肤\GlassGreen.ssk" />
+    <None Include="皮肤\GlassOrange.ssk" />
+    <None Include="皮肤\Longhorn.ssk" />
+    <None Include="皮肤\MacOS.ssk" />
+    <None Include="皮肤\Midsummer.ssk" />
+    <None Include="皮肤\MidsummerColor1.ssk" />
+    <None Include="皮肤\MidsummerColor2.ssk" />
+    <None Include="皮肤\MidsummerColor3.ssk" />
+    <None Include="皮肤\MP10.ssk" />
+    <None Include="皮肤\MSN.ssk" />
+    <None Include="皮肤\OneBlue.ssk" />
+    <None Include="皮肤\OneCyan.ssk" />
+    <None Include="皮肤\OneGreen.ssk" />
+    <None Include="皮肤\OneOrange.ssk" />
+    <None Include="皮肤\Page.ssk" />
+    <None Include="皮肤\PageColor1.ssk" />
+    <None Include="皮肤\PageColor2.ssk" />
+    <None Include="皮肤\RealOne.ssk" />
+    <None Include="皮肤\Silver.ssk" />
+    <None Include="皮肤\SilverColor1.ssk" />
+    <None Include="皮肤\SilverColor2.ssk" />
+    <None Include="皮肤\SportsBlack.ssk" />
+    <None Include="皮肤\SportsBlue.ssk" />
+    <None Include="皮肤\SportsCyan.ssk" />
+    <None Include="皮肤\SportsGreen.ssk" />
+    <None Include="皮肤\SportsOrange.ssk" />
+    <None Include="皮肤\SteelBlack.ssk" />
+    <None Include="皮肤\SteelBlue.ssk" />
+    <None Include="皮肤\Vista.ssk" />
+    <None Include="皮肤\Vista2_color1.ssk" />
+    <None Include="皮肤\Vista2_color3.ssk" />
+    <None Include="皮肤\Vista2_color6.ssk" />
+    <None Include="皮肤\vistaGreen.ssk" />
+    <None Include="皮肤\Warm.ssk" />
+    <None Include="皮肤\WarmColor1.ssk" />
+    <None Include="皮肤\WarmColor2.ssk" />
+    <None Include="皮肤\WarmColor3.ssk" />
+    <None Include="皮肤\Wave.ssk" />
+    <None Include="皮肤\WaveColor1.ssk" />
+    <None Include="皮肤\WaveColor2.ssk" />
+    <None Include="皮肤\XPBlue.ssk" />
+    <None Include="皮肤\XPGreen.ssk" />
+    <None Include="皮肤\XPOrange.ssk" />
+    <None Include="皮肤\XPSilver.ssk" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

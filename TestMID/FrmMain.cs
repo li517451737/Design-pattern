@@ -12,14 +12,11 @@ namespace TestMID
 {
     public partial class FrmMain : Form
     {
-        Sunisoft.IrisSkin.SkinEngine se = null;
         #region 构造方法
         public FrmMain()
         {
             InitializeComponent();
-            se = new Sunisoft.IrisSkin.SkinEngine();
-            se.SkinFile = "皮肤/SteelBlack.ssk";   // 选择皮肤
-            se.SkinAllForm = true;
+           
         } 
         #endregion
 
@@ -53,6 +50,7 @@ namespace TestMID
         {
             TabPage tp = new TabPage();
             tp.Tag = frm;
+            tp.Text = frm.Text;
             tabControl1.TabPages.Add(tp);
             tabControl1.SelectedIndex = tabControl1.TabCount - 1;//选中最后一个新建的tab
             if (tabControl1.Visible == false) tabControl1.Visible = true;
@@ -198,10 +196,5 @@ namespace TestMID
             }
         }
         #endregion
-
-        private void 换肤ToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            se.SkinFile = "皮肤/SteelBlack.ssk";   // 选择皮肤
-        }
     }
 }

@@ -188,12 +188,6 @@
             this.关于AToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.关于AToolStripMenuItem.Text = "关于(A)";
             // 
-            // 换肤ToolStripMenuItem
-            // 
-            this.换肤ToolStripMenuItem.Name = "换肤ToolStripMenuItem";
-            this.换肤ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.换肤ToolStripMenuItem.Text = "换肤";
-            this.换肤ToolStripMenuItem.Click += new System.EventHandler(this.换肤ToolStripMenuItem_Click);
             // 
             // FrmMain
             // 

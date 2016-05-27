@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestMID", "TestMID\TestMID.csproj", "{AF5F1316-4762-45B0-95A7-B35CF6350FF0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "策略模式", "策略模式\策略模式.csproj", "{8206F55B-2675-4980-AB75-AC25A572CD7B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{AF5F1316-4762-45B0-95A7-B35CF6350FF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF5F1316-4762-45B0-95A7-B35CF6350FF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF5F1316-4762-45B0-95A7-B35CF6350FF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8206F55B-2675-4980-AB75-AC25A572CD7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8206F55B-2675-4980-AB75-AC25A572CD7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8206F55B-2675-4980-AB75-AC25A572CD7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8206F55B-2675-4980-AB75-AC25A572CD7B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -42,5 +48,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{F712A96C-5676-4BA4-AC19-A8B76DCEC03E} = {7B64DC3B-C790-4EF8-A54D-B2354893A6DE}
 		{BD38A556-609C-4C20-8EEA-F7D8CAB46138} = {7B64DC3B-C790-4EF8-A54D-B2354893A6DE}
+		{8206F55B-2675-4980-AB75-AC25A572CD7B} = {7B64DC3B-C790-4EF8-A54D-B2354893A6DE}
 	EndGlobalSection
 EndGlobal

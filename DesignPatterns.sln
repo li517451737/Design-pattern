@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2002
+VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "简单工厂模式", "简单工厂模式", "{B9A0E9C2-B585-44FB-A44A-1839C944992E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{CACFC509-3074-4C89-BEEE-36BCA4F58194}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleFactory", "SimpleFactory\SimpleFactory.csproj", "{09810354-E3B4-47FE-A9DA-D0DE69411C30}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleFactory", "SimpleFactory\SimpleFactory.csproj", "{09810354-E3B4-47FE-A9DA-D0DE69411C30}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UML", "UML", "{5404D172-346A-44DA-B4B4-E6F40E81F7DD}"
 	ProjectSection(SolutionItems) = preProject
@@ -16,7 +16,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UML", "UML", "{5404D172-346
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "策略模式", "策略模式", "{93EAC40F-A508-4F46-81FD-673789692318}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyCashier", "StrategyCashier\StrategyCashier.csproj", "{2C4C7090-141C-41BC-BA69-E112916E4BCC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrategyCashier", "StrategyCashier\StrategyCashier.csproj", "{2C4C7090-141C-41BC-BA69-E112916E4BCC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "单一职责原则", "单一职责原则", "{72B7CC2C-8E24-4656-9DF0-8EAF9F0616FC}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\litia\Desktop\单一职责原则.docx = C:\Users\litia\Desktop\单一职责原则.docx
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

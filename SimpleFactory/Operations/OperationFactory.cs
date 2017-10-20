@@ -9,6 +9,11 @@ namespace SimpleFactory.Operations
     /// </summary>
     public class OperationFactory
     {
+        /// <summary>
+        /// 根据传入的运算符字符串，返回运算实体
+        /// </summary>
+        /// <param name="operate"></param>
+        /// <returns></returns>
         public static Operation CreateOperation(string operate)
         {
             Operation operation = null;

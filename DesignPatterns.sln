@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "简单工厂模式", "简单工厂模式", "{B9A0E9C2-B585-44FB-A44A-1839C944992E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "工厂模式", "工厂模式", "{B9A0E9C2-B585-44FB-A44A-1839C944992E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{CACFC509-3074-4C89-BEEE-36BCA4F58194}"
 EndProject
@@ -18,11 +18,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "策略模式", "策略模�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrategyCashier", "StrategyCashier\StrategyCashier.csproj", "{2C4C7090-141C-41BC-BA69-E112916E4BCC}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "单一职责原则", "单一职责原则", "{72B7CC2C-8E24-4656-9DF0-8EAF9F0616FC}"
-	ProjectSection(SolutionItems) = preProject
-		C:\Users\litia\Desktop\单一职责原则.docx = C:\Users\litia\Desktop\单一职责原则.docx
-	EndProjectSection
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "装饰模式", "装饰模式", "{FD5FC40F-E348-43FE-8AB5-A37A4FD70470}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "Decorator\Decorator.csproj", "{B0519B67-B1D7-42F9-ABA8-D8CA6494C0EA}"
@@ -30,6 +25,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "代理模式", "代理模式", "{E2999A1E-83CB-4A53-AAAC-E72A2605F013}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxies", "Proxies\Proxies.csproj", "{F0186C45-D0D4-4E7C-BDED-1BB9723538E2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "原型模式", "原型模式", "{507F14CE-0575-452A-B878-AD79ADEC32E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototypes", "Prototypes\Prototypes.csproj", "{6DE0BFA6-4EE6-4404-A3A2-3EF1BFC840FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +52,10 @@ Global
 		{F0186C45-D0D4-4E7C-BDED-1BB9723538E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F0186C45-D0D4-4E7C-BDED-1BB9723538E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F0186C45-D0D4-4E7C-BDED-1BB9723538E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DE0BFA6-4EE6-4404-A3A2-3EF1BFC840FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DE0BFA6-4EE6-4404-A3A2-3EF1BFC840FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DE0BFA6-4EE6-4404-A3A2-3EF1BFC840FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DE0BFA6-4EE6-4404-A3A2-3EF1BFC840FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,6 +65,7 @@ Global
 		{2C4C7090-141C-41BC-BA69-E112916E4BCC} = {93EAC40F-A508-4F46-81FD-673789692318}
 		{B0519B67-B1D7-42F9-ABA8-D8CA6494C0EA} = {FD5FC40F-E348-43FE-8AB5-A37A4FD70470}
 		{F0186C45-D0D4-4E7C-BDED-1BB9723538E2} = {E2999A1E-83CB-4A53-AAAC-E72A2605F013}
+		{6DE0BFA6-4EE6-4404-A3A2-3EF1BFC840FF} = {507F14CE-0575-452A-B878-AD79ADEC32E2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E6743BD3-7935-40EF-BE42-93886BAC3C40}

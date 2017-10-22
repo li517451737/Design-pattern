@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2002
+VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "简单工厂模式", "简单工厂模式", "{B9A0E9C2-B585-44FB-A44A-1839C944992E}"
 EndProject
@@ -24,11 +24,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "单一职责原则", "单�
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "装饰模式", "装饰模式", "{FD5FC40F-E348-43FE-8AB5-A37A4FD70470}"
-	ProjectSection(SolutionItems) = preProject
-		C:\Users\IWIT\Desktop\装饰者模式结构图.png = C:\Users\IWIT\Desktop\装饰者模式结构图.png
-	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{B0519B67-B1D7-42F9-ABA8-D8CA6494C0EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "Decorator\Decorator.csproj", "{B0519B67-B1D7-42F9-ABA8-D8CA6494C0EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "代理模式", "代理模式", "{E2999A1E-83CB-4A53-AAAC-E72A2605F013}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxies", "Proxies\Proxies.csproj", "{F0186C45-D0D4-4E7C-BDED-1BB9723538E2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -48,6 +49,10 @@ Global
 		{B0519B67-B1D7-42F9-ABA8-D8CA6494C0EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0519B67-B1D7-42F9-ABA8-D8CA6494C0EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0519B67-B1D7-42F9-ABA8-D8CA6494C0EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0186C45-D0D4-4E7C-BDED-1BB9723538E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0186C45-D0D4-4E7C-BDED-1BB9723538E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0186C45-D0D4-4E7C-BDED-1BB9723538E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0186C45-D0D4-4E7C-BDED-1BB9723538E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -56,6 +61,7 @@ Global
 		{09810354-E3B4-47FE-A9DA-D0DE69411C30} = {B9A0E9C2-B585-44FB-A44A-1839C944992E}
 		{2C4C7090-141C-41BC-BA69-E112916E4BCC} = {93EAC40F-A508-4F46-81FD-673789692318}
 		{B0519B67-B1D7-42F9-ABA8-D8CA6494C0EA} = {FD5FC40F-E348-43FE-8AB5-A37A4FD70470}
+		{F0186C45-D0D4-4E7C-BDED-1BB9723538E2} = {E2999A1E-83CB-4A53-AAAC-E72A2605F013}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E6743BD3-7935-40EF-BE42-93886BAC3C40}

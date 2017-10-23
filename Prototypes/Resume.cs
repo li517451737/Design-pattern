@@ -67,7 +67,7 @@ namespace Prototypes
             obj.Sex = _sex;
             obj.Age = _age;
 
-
+            //MemberwiseClone() 方法是浅复制，只会复制引用类型的引用
             //return (object)this.MemberwiseClone();
             return obj;
         }

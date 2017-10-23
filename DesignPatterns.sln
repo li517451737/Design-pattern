@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2002
+VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "工厂模式", "工厂模式", "{B9A0E9C2-B585-44FB-A44A-1839C944992E}"
 EndProject
@@ -31,7 +31,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UmlDescription", "UmlDescri
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "模板方法模式", "模板方法模式", "{9E8DADE1-F174-4F74-85E1-A90A235264C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "TemplateMethod\TemplateMethod.csproj", "{B2BC5250-9B0C-49D0-89C5-F53E051FB9A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemplateMethod", "TemplateMethod\TemplateMethod.csproj", "{B2BC5250-9B0C-49D0-89C5-F53E051FB9A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "外观模式", "外观模式", "{FF82A8FE-C71B-4511-A9F8-EA3F8B10E5EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facades", "Facades\Facades.csproj", "{25FB9DCE-7D22-431C-85B6-771B73ABCAC3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -67,6 +71,10 @@ Global
 		{B2BC5250-9B0C-49D0-89C5-F53E051FB9A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2BC5250-9B0C-49D0-89C5-F53E051FB9A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2BC5250-9B0C-49D0-89C5-F53E051FB9A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25FB9DCE-7D22-431C-85B6-771B73ABCAC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25FB9DCE-7D22-431C-85B6-771B73ABCAC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25FB9DCE-7D22-431C-85B6-771B73ABCAC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25FB9DCE-7D22-431C-85B6-771B73ABCAC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -79,6 +87,7 @@ Global
 		{6DE0BFA6-4EE6-4404-A3A2-3EF1BFC840FF} = {507F14CE-0575-452A-B878-AD79ADEC32E2}
 		{2862DDA7-113E-4451-B9B6-419DCC57B638} = {5404D172-346A-44DA-B4B4-E6F40E81F7DD}
 		{B2BC5250-9B0C-49D0-89C5-F53E051FB9A4} = {9E8DADE1-F174-4F74-85E1-A90A235264C3}
+		{25FB9DCE-7D22-431C-85B6-771B73ABCAC3} = {FF82A8FE-C71B-4511-A9F8-EA3F8B10E5EE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E6743BD3-7935-40EF-BE42-93886BAC3C40}

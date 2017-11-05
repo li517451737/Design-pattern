@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2005
+VisualStudioVersion = 15.0.27004.2006
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "工厂模式", "工厂模式", "{B9A0E9C2-B585-44FB-A44A-1839C944992E}"
 EndProject
@@ -43,7 +43,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builders", "Builders\Builde
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "观察者模式", "观察者模式", "{04D1CD54-2217-47CA-AAE7-FBF06E116843}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Observer\Observer.csproj", "{BB404AF9-1DEC-4048-AD20-9D9137382FD3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer", "Observer\Observer.csproj", "{BB404AF9-1DEC-4048-AD20-9D9137382FD3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFacotry", "AbstractFacotry\AbstractFacotry.csproj", "{8F5F9931-A71E-4F2E-85E4-889CFC5325B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "状态模式", "状态模式", "{8EF7E362-5A15-403B-AF1B-304137DB8CF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State Pattern", "State Pattern\State Pattern.csproj", "{23E49E9C-238D-48C2-8C7C-FBF817ACF6DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -91,6 +97,14 @@ Global
 		{BB404AF9-1DEC-4048-AD20-9D9137382FD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB404AF9-1DEC-4048-AD20-9D9137382FD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB404AF9-1DEC-4048-AD20-9D9137382FD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F5F9931-A71E-4F2E-85E4-889CFC5325B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F5F9931-A71E-4F2E-85E4-889CFC5325B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F5F9931-A71E-4F2E-85E4-889CFC5325B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F5F9931-A71E-4F2E-85E4-889CFC5325B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23E49E9C-238D-48C2-8C7C-FBF817ACF6DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23E49E9C-238D-48C2-8C7C-FBF817ACF6DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23E49E9C-238D-48C2-8C7C-FBF817ACF6DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23E49E9C-238D-48C2-8C7C-FBF817ACF6DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -106,6 +120,8 @@ Global
 		{25FB9DCE-7D22-431C-85B6-771B73ABCAC3} = {FF82A8FE-C71B-4511-A9F8-EA3F8B10E5EE}
 		{96AFCA06-6126-4335-BC3B-17E456944BDC} = {92C72070-95C9-41CD-98BB-ED0BC3E6723A}
 		{BB404AF9-1DEC-4048-AD20-9D9137382FD3} = {04D1CD54-2217-47CA-AAE7-FBF06E116843}
+		{8F5F9931-A71E-4F2E-85E4-889CFC5325B8} = {B9A0E9C2-B585-44FB-A44A-1839C944992E}
+		{23E49E9C-238D-48C2-8C7C-FBF817ACF6DB} = {8EF7E362-5A15-403B-AF1B-304137DB8CF5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E6743BD3-7935-40EF-BE42-93886BAC3C40}

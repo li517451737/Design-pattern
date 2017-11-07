@@ -53,7 +53,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "State Pattern", "State Patt
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "适配器模式", "适配器模式", "{B5A69FC3-9308-4BC0-94CE-54068AF76A9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterPattern", "AdapterPattern\AdapterPattern.csproj", "{4568B2BC-33B5-4448-9DD3-C9003D07FA56}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdapterPattern", "AdapterPattern\AdapterPattern.csproj", "{4568B2BC-33B5-4448-9DD3-C9003D07FA56}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "备忘录模式", "备忘录模式", "{2256EBC2-AF6B-4077-8B7E-0DB4E5A79C97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento", "Memento\Memento.csproj", "{99E7E067-2AAE-4435-A26C-FCABD2AE4770}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -113,6 +117,10 @@ Global
 		{4568B2BC-33B5-4448-9DD3-C9003D07FA56}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4568B2BC-33B5-4448-9DD3-C9003D07FA56}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4568B2BC-33B5-4448-9DD3-C9003D07FA56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99E7E067-2AAE-4435-A26C-FCABD2AE4770}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99E7E067-2AAE-4435-A26C-FCABD2AE4770}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99E7E067-2AAE-4435-A26C-FCABD2AE4770}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99E7E067-2AAE-4435-A26C-FCABD2AE4770}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -131,6 +139,7 @@ Global
 		{8F5F9931-A71E-4F2E-85E4-889CFC5325B8} = {B9A0E9C2-B585-44FB-A44A-1839C944992E}
 		{23E49E9C-238D-48C2-8C7C-FBF817ACF6DB} = {8EF7E362-5A15-403B-AF1B-304137DB8CF5}
 		{4568B2BC-33B5-4448-9DD3-C9003D07FA56} = {B5A69FC3-9308-4BC0-94CE-54068AF76A9C}
+		{99E7E067-2AAE-4435-A26C-FCABD2AE4770} = {2256EBC2-AF6B-4077-8B7E-0DB4E5A79C97}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E6743BD3-7935-40EF-BE42-93886BAC3C40}

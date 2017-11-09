@@ -67,6 +67,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "迭代器模式", "迭代�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterator", "Iterator\Iterator.csproj", "{87EBFE94-73FD-4080-950E-65D5C09D4D0E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "单例模式", "单例模式", "{E04378CD-F865-4DC8-ABEF-49D48BEE0A0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singletons", "Singletons\Singletons.csproj", "{8B6A0E50-436B-45CA-8701-B83E7C07DA70}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -137,6 +141,10 @@ Global
 		{87EBFE94-73FD-4080-950E-65D5C09D4D0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87EBFE94-73FD-4080-950E-65D5C09D4D0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87EBFE94-73FD-4080-950E-65D5C09D4D0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B6A0E50-436B-45CA-8701-B83E7C07DA70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B6A0E50-436B-45CA-8701-B83E7C07DA70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B6A0E50-436B-45CA-8701-B83E7C07DA70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B6A0E50-436B-45CA-8701-B83E7C07DA70}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -158,6 +166,7 @@ Global
 		{99E7E067-2AAE-4435-A26C-FCABD2AE4770} = {2256EBC2-AF6B-4077-8B7E-0DB4E5A79C97}
 		{CDE487B4-D646-4E83-A09E-F024C9D1E416} = {022280F5-4AA1-467A-A8E6-C8E471EF8F20}
 		{87EBFE94-73FD-4080-950E-65D5C09D4D0E} = {8999F1C1-5413-45ED-AF43-E665997B0AB9}
+		{8B6A0E50-436B-45CA-8701-B83E7C07DA70} = {E04378CD-F865-4DC8-ABEF-49D48BEE0A0A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E6743BD3-7935-40EF-BE42-93886BAC3C40}

@@ -83,6 +83,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "职责链模式", "职责�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibility", "ChainOfResponsibility\ChainOfResponsibility.csproj", "{5DAF70B8-DC5F-466A-A2DD-164092F721A4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "中介者模式", "中介者模式", "{EC665830-73E2-4DFB-9F27-9DDFEC039ECD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediators", "Mediators\Mediators.csproj", "{3AE7F584-67EE-493D-B8E5-868F55B48AB9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -169,6 +173,10 @@ Global
 		{5DAF70B8-DC5F-466A-A2DD-164092F721A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5DAF70B8-DC5F-466A-A2DD-164092F721A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5DAF70B8-DC5F-466A-A2DD-164092F721A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AE7F584-67EE-493D-B8E5-868F55B48AB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AE7F584-67EE-493D-B8E5-868F55B48AB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AE7F584-67EE-493D-B8E5-868F55B48AB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AE7F584-67EE-493D-B8E5-868F55B48AB9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -194,6 +202,7 @@ Global
 		{5AE789B1-6C6E-47E1-A892-4585D1E4EDCE} = {F458D675-A923-4936-94F3-18BD2AE509D6}
 		{5DD24E0C-F5D2-489E-8D19-5BB253C18C12} = {EF0CC8AC-B7B8-4861-8B5E-F2744EAFCBE4}
 		{5DAF70B8-DC5F-466A-A2DD-164092F721A4} = {400276EB-8056-478C-B127-73A95836333D}
+		{3AE7F584-67EE-493D-B8E5-868F55B48AB9} = {EC665830-73E2-4DFB-9F27-9DDFEC039ECD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E6743BD3-7935-40EF-BE42-93886BAC3C40}

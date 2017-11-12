@@ -25,7 +25,7 @@ namespace CommandPattern
     {
         public void Action()
         {
-            Console.WriteLine("");
+            Console.WriteLine("命令请求");
         }
     }
 

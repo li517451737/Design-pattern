@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2008
+VisualStudioVersion = 15.0.27004.2002
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "工厂模式", "工厂模式", "{B9A0E9C2-B585-44FB-A44A-1839C944992E}"
 EndProject
@@ -89,7 +89,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediators", "Mediators\Medi
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "享元模式", "享元模式", "{A500EDA1-6251-4A46-9393-FB8F794553FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlyweightPattern", "FlyweightPattern\FlyweightPattern.csproj", "{FAF2A0BD-E4A3-4477-AE6C-F90123241A98}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlyweightPattern", "FlyweightPattern\FlyweightPattern.csproj", "{FAF2A0BD-E4A3-4477-AE6C-F90123241A98}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "解释器模式", "解释器模式", "{412A1776-8098-48A9-B88C-DEDCEAE3B8C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterpreterPattern", "InterpreterPattern\InterpreterPattern.csproj", "{6595FB59-AF6C-4303-8B0B-4C2183DEFD27}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -185,6 +189,10 @@ Global
 		{FAF2A0BD-E4A3-4477-AE6C-F90123241A98}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FAF2A0BD-E4A3-4477-AE6C-F90123241A98}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FAF2A0BD-E4A3-4477-AE6C-F90123241A98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6595FB59-AF6C-4303-8B0B-4C2183DEFD27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6595FB59-AF6C-4303-8B0B-4C2183DEFD27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6595FB59-AF6C-4303-8B0B-4C2183DEFD27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6595FB59-AF6C-4303-8B0B-4C2183DEFD27}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -212,6 +220,7 @@ Global
 		{5DAF70B8-DC5F-466A-A2DD-164092F721A4} = {400276EB-8056-478C-B127-73A95836333D}
 		{3AE7F584-67EE-493D-B8E5-868F55B48AB9} = {EC665830-73E2-4DFB-9F27-9DDFEC039ECD}
 		{FAF2A0BD-E4A3-4477-AE6C-F90123241A98} = {A500EDA1-6251-4A46-9393-FB8F794553FE}
+		{6595FB59-AF6C-4303-8B0B-4C2183DEFD27} = {412A1776-8098-48A9-B88C-DEDCEAE3B8C5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E6743BD3-7935-40EF-BE42-93886BAC3C40}
